@@ -3,6 +3,9 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/index.css')
   body
+    .flex
+      a.mr-2.text-green-500(href='/') Go To Home Page
+      a.ml-2.text-blue-500(href='/tailwind') Go To Tailwind Page
     block content
-    a(href='https://youtube.com', target="_blank") Go To Youtube
