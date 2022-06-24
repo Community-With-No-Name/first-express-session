@@ -5,5 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express', name:"Musa", age:"30", arr:["","",""] });
 });
+router.get('/tailwind', function(req, res) {
+  res.render('tailwind', { arr:["","",""] });
+});
 
 module.exports = router;
